@@ -1,8 +1,0 @@
----
-- name: Execute the helloword collection
-  hosts: localhost
-  vars:
-    world: "controller"
-  tasks:
-    - include_role: 
-        name: platform.helloworld_collection.helloworld
